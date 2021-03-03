@@ -1,0 +1,118 @@
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+.btn{
+ background-color: #EA1C2C;
+ border-color: rgb(222,192,222);
+}
+.btn:hover {
+    background-color: rgb(222,192,222);
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 75px;
+}
+
+.navbar {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+    margin-bottom: .5px;
+}
+
+.test {
+    margin-top:20%;
+   
+}
+
+/* For Order.html */
+
+form {
+    width: 90%;
+    margin: 7%;
+    align-content: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(222,192,222);
+    color: #EA1C2C;
+    text-align: center;
+  }
+  .footer a {
+    color: white;
+  }
+.imgbody{
+    width: 98%;
+}
+.imgbody img {
+    width: 97%;
+    height: 98%;
+}
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 75px;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
